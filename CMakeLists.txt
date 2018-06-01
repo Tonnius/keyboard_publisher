@@ -26,6 +26,8 @@ catkin_package(
 catkin_install_python(PROGRAMS
         scripts/key_publisher_node.py
         scripts/key_to_twist_node.py
+	scripts/brain_to_twist_node.py
+	scripts/forward_keys_node.py
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/src
         )
 install(FILES
